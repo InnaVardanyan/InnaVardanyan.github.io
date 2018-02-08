@@ -1,0 +1,76 @@
+body{
+	background-image: url("background.jpg");
+	background-size: 100%;
+	background-position: center;
+}
+
+#title{
+	text-shadow: 2px 2px #827777;
+	text-align: center;
+	font-family: "Courier New", monospace; 
+	font-size: 50px;
+}
+
+#Image1{
+	border: 1px solid rgb(79, 72, 72);
+	width: 220px;
+	box-shadow: 7px 7px 20px rgb(79, 72, 72);
+}
+
+.left{
+	float: left;
+	width: 40%;
+	height: 100%;
+	background-color: #f79999;
+	border: 1px solid #ef7575; 
+}
+
+.right{
+	float: right;
+	width: 59.2%;
+	height: 100%;
+	background-color: rgb(255, 139, 94);
+	border: 1px solid rgb(252, 99, 40);
+}
+
+#Welcome{
+	font-size: 18px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+
+#contactinfo{
+	font-family: Verdana, Geneva, sans-serif;
+	list-style-type: none;
+}
+
+table, td, th{
+	border: 1.5px solid black;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+table{
+	border-collapse: collapse;
+	width: 700px;
+	margin: auto;
+	box-shadow: 7px 7px 20px rgb(79, 72, 72);
+}
+
+th{
+	background-color: rgb(252, 99, 40);
+}
+
+#WorkExp{
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#Languages{
+	font-family: Verdana, Geneva, sans-serif;
+	color: #700808;
+	margin-left: 30px;
+	font-weight: bold;
+}
